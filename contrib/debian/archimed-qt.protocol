@@ -1,0 +1,11 @@
+[Protocol]
+exec=archimed-qt '%u'
+protocol=archimed
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,22 @@
+[Unit]
+Description=Archimed's distributed currency daemon
+After=network.target
+
+[Service]
+User=archimedcore
+Group=archimedcore
+
+Type=forking
+PIDFile=/var/lib/archimedd/archimedd.pid
+ExecStart=/usr/bin/archimedd -daemon -pid=/var/lib/archimedd/archimedd.pid \
+-conf=/etc/archimedcore/archimed.conf -datadir=/var/lib/archimedd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

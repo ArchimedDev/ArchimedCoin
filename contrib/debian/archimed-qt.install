@@ -1,0 +1,6 @@
+usr/local/bin/archimed-qt usr/bin
+share/pixmaps/archimed32.xpm usr/share/pixmaps
+share/pixmaps/archimed16.xpm usr/share/pixmaps
+share/pixmaps/archimed128.png usr/share/pixmaps
+debian/archimed-qt.desktop usr/share/applications
+debian/archimed-qt.protocol usr/share/kde4/services/

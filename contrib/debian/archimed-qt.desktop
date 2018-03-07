@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Archimed
+Comment=Archimed P2P Cryptocurrency
+Comment[fr]=Archimed, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Archimed, eşten eşe kriptografik sanal para birimi
+Exec=archimed-qt %u
+Terminal=false
+Type=Application
+Icon=archimed128
+MimeType=x-scheme-handler/archimed;
+Categories=Office;Finance;
