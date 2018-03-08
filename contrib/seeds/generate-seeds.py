@@ -130,7 +130,7 @@ def main():
         process_nodes(g, f, 'pnSeed6_main', 9992)
     g.write('\n')
     with open(os.path.join(indir,'nodes_test.txt'),'r') as f:
-        process_nodes(g, f, 'pnSeed6_test', 10211)
+        process_nodes(g, f, 'pnSeed6_test', 30211)
     g.write('#endif // ARCHIMED_CHAINPARAMSSEEDS_H\n')
             
 if __name__ == '__main__':
