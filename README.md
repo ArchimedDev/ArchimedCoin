@@ -1,2 +1,2 @@
-Archimed Core staging tree 1.1.0.1
+Archimed Core staging tree 1.1.0.2
 ===============================
