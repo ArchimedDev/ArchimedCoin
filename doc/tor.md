@@ -53,7 +53,7 @@ config file):
 
 	HiddenServiceDir /var/lib/tor/archimedcore-service/
 	HiddenServicePort 9992 127.0.0.1:9992
-	HiddenServicePort 3121 127.0.0.1:3121
+	HiddenServicePort 10211 127.0.0.1:10211
 
 The directory can be different of course, but (both) port numbers should be equal to
 your archimedd's P2P listen port (9992 by default).
